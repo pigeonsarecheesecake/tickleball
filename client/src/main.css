@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'new-spirit';
+  /* src: url('Roboto-Regular.ttf'); */
+  src:url('../public/New\ Spirit\ Regular.otf')
+}
+
+body {
+  font-family: 'new-spirit';
+  color: #5B5B5B;
+  background-color: #EFEFEF;
+}
